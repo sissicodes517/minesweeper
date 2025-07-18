@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>520 Minesweeper - For My Love</title>
+  <title> Minesweeper - For My Love</title>
   <style>
     body { font-family: 'Segoe UI', Arial, sans-serif; background: #fff0f6; text-align: center; }
     h1 { color: #e75480; }
@@ -109,7 +109,7 @@
       if (gameOver || revealed[r][c] || flagged[r][c]) return;
       if (board[r][c] === -1) {
         revealAll();
-        showMessage('Love you my dearest fossil <3  (You hit a mine!)');
+        showMessage('Sry bb (You hit a mine!)');
         gameOver = true;
         return;
       }
